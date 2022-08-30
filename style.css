@@ -1,0 +1,46 @@
+#btn {
+	background: #ccc;
+	border: 1px solid #999;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 4px 10px;
+	cursor: pointer;
+	box-shadow: #666 0 4px;
+	user-select: none;
+}
+
+#btn:hover {
+	background: #ddd;
+}
+
+#btn:active {
+	box-shadow: none;
+	margin-top: 4px;
+}
+
+#result-area {
+	display: flex;
+}
+
+#count {
+	font-size: 20px;
+	margin: 20px;
+	vertical-align: bottom;
+}
+
+.result {
+	color: white;
+	line-height: 50px;
+	width: 50px;
+	text-align: center;
+	border-radius: 50%;
+	background: rgb(50, 50, 240);
+	border: #666 1px solid;
+	margin: 4px;
+}
+
+#result-area {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
